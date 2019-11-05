@@ -1,14 +1,13 @@
 {
-	"name" : "kapersoft/sharefile-api",
+	"name" : "nmusco/sharefile-api",
 	"description" : "A minimal implementation of ShareFile Api",
 	"keywords" : [
-		"kapersoft",
 		"sharefile-api",
 		"sharefile",
 		"api",
 		"php"
 	],
-	"homepage" : "https://github.com/kapersoft/sharefile-api",
+	"homepage" : "https://github.com/nmusco/sharefile-api",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "Jan Willem Kaper",
