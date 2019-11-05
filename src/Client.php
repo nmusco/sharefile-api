@@ -92,6 +92,8 @@ class Client
      *            ShareFile password
      * @param MockHandler|HandlerStack $handler
      *            Guzzle Handler
+     * @param TokenStorageInterface $$tokenRepository
+     *            OAuth2 Token Storage handler
      *
      * @throws Exception
      */
