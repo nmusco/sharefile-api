@@ -541,7 +541,7 @@ class Client
                 'refresh_token' => $this->accessToken->getRefreshToken()
             ]);
             if ($this->tokenRepository !== null) {
-                $this->tokenRepository->storeAccessToken($tokenId, $this->accessToken);
+                $this->tokenRepository->storeToken($this->accessToken, $tokenId);
             }
         }
         return $this->accessToken;
